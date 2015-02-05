@@ -14,10 +14,11 @@ This blog is hosted on *GitHub Pages*. Posts are written in *Markdown*. If you'r
 
 	1. Fork this repo
 	2. Clone it to your computer
-	3. Make an edit or create a new post
-	4. Commit
-	5. Push
-	6. Create a pull request
+	3. Running it locally
+	4. Make an edit or create a new post
+	5. Commit
+	6. Push
+	7. Create a pull request
 	
 ### 1. Fork this repo
 
@@ -32,11 +33,21 @@ Then run
 	git clone URL
 where URL should be replaced by the url of the newly forked repo.
 
-### 3. Editing
+### 3. Running it locally
+
+Make sure you have ruby installed. Then do,
+
+	gem install jekyll
+	
+Once jekyll is installed, go to the cloned directory and run
+
+	jekyll serve
+
+### 4. Editing
 
 Use any normal text editor to edit posts.
 
-### 4. Commit
+### 5. Commit
 
 You can commit by doing
 
@@ -49,13 +60,13 @@ You can commit by doing
 	3. git commit -m "Give a meaningful message here"
 		
 	
-### 5. Push
+### 6. Push
 
 To upload these changes to your github repo,
 
 	git push origin master
 
-### 6. Create a pull request
+### 7. Create a pull request
 
 You can create a pull request directly from GitHub, by clicking on the corresponding button.
 
