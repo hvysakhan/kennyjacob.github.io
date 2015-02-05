@@ -3,28 +3,57 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Hi there! :) 
 
-There are currently two themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Thanks for dropping by. This blog is meant to be a place to experiment with **git**, **github** and other awesome stuff online. I'll be rambling about random stuff that life throws at me.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
+This blog is hosted on *GitHub Pages*. Posts are written in *Markdown*. If you're new to git and github, you can
 
-Some fun facts about the setup of this project include:
+	1. Fork this repo
+	2. Clone it to your computer
+	3. Make an edit or create a new post
+	4. Commit
+	5. Push
+	6. Create a pull request
+	
+### 1. Fork this repo
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+To fork this repo, just go [here](https://github.com/kennyjacob/kennyjacob.github.io) and click on the *fork* button at the top right.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+### 2. Cloning it
 
-Thanks for reading!
+Make sure you have git installed on your computer.
+
+Then run 
+
+	git clone URL
+where URL should be replaced by the url of the newly forked repo.
+
+### 4. Commit
+
+You can commit by doing
+
+	1. git status
+		This will tell you which files have to be added.
+		
+	2. git add <files>
+		Run git add on all the files that are to be added.
+		
+	3. git commit -m "Give a meaningful message here"
+		
+	
+### 5. Push
+
+To upload these changes to your github repo,
+
+	git push origin master
+
+### 6. Create a pull request
+
+You can create a pull request directly from GitHub, by clicking on the corresponding button.
+
+
+
