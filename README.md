@@ -4,7 +4,6 @@ title: About
 permalink: about.html
 ---
 
-
 Hi there! :) 
 
 
